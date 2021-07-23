@@ -1,0 +1,15 @@
+server:
+  port: 7070
+  servlet:
+    context-path: /persistence
+spring:
+  datasource:
+    url: jdbc:sqlserver://192.168.43.88:1433;databaseName=overonix
+    username: sa
+    password: reallyStrongPwd123
+
+flyway:
+  url: jdbc:mysql://192.168.43.88:1433/mssql
+  schemas: overonix
+  user: sa
+  password: reallyStrongPwd123
